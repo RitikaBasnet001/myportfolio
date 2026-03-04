@@ -1,0 +1,91 @@
+body {
+  background-color: white;
+  font-family: Arial, sans-serif;
+}
+a {
+  text-decoration: none;
+  justify-content: space-between;
+  color: black;
+}
+.head {
+  display: flex;
+  text-align: center;
+  gap: 30px;
+  height: 35px;
+  border: 2px solid black;
+  border-radius: 30px;
+  margin: 20px;
+  margin: 20px auto;
+  padding-top: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: rgb(201, 207, 223);
+  width: fit-content;
+  cursor: pointer;
+}
+
+a:hover {
+  color: beige;
+}
+
+.photo {
+  display: flex;
+  padding-left: 10px;
+  padding-right: 30px;
+  text-align: center;
+  align-items: center;
+  gap: 20px;
+
+  justify-content: center;
+  background: white;
+  padding: 20px;
+  /* margin-bottom: 15px; */
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.photo img {
+  display: flex;
+  width: 150px;
+  cursor: pointer;
+}
+section {
+  padding: 30px;
+}
+
+.about {
+  padding: 30px;
+}
+.skills {
+  display: flex;
+  gap: 15px;
+}
+.skills div {
+  background: #eee;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+.all {
+  border: 2px solid black;
+  color: rgb(225, 114, 114);
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 40px 20px;
+}
+
+.project-card {
+  background: white;
+  padding: 20px;
+  /* margin-bottom: 15px; */
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.contact {
+  padding: 30px;
+}
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #222;
+  color: white;
+}
